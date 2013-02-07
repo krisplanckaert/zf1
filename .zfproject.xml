@@ -16,6 +16,20 @@
         <controllerFile controllerName="Contact">
           <actionMethod actionName="index"/>
         </controllerFile>
+        <controllerFile controllerName="Nieuws">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="overzicht"/>
+          <actionMethod actionName="toevoegen"/>
+          <actionMethod actionName="verwijderen"/>
+          <actionMethod actionName="wijzigen"/>
+        </controllerFile>
+        <controllerFile controllerName="Nieuws1">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="wijzigen"/>
+          <actionMethod actionName="verwijderen"/>
+          <actionMethod actionName="toevoegen"/>
+          <actionMethod actionName="overzicht"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory>
@@ -42,6 +56,36 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Index">
             <viewScriptFile forActionName="sitemap"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws">
+            <viewScriptFile forActionName="overzicht"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws">
+            <viewScriptFile forActionName="toevoegen"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws">
+            <viewScriptFile forActionName="verwijderen"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws">
+            <viewScriptFile forActionName="wijzigen"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws1">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws1">
+            <viewScriptFile forActionName="wijzigen"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws1">
+            <viewScriptFile forActionName="verwijderen"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws1">
+            <viewScriptFile forActionName="toevoegen"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws1">
+            <viewScriptFile forActionName="overzicht"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>
